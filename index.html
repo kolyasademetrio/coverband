@@ -26,244 +26,247 @@
 </head>
 <body>
 
-    <!-- header -->
-    <div class="container header__container">
-        <div class="row header__row">
-            <div class="col-xs-12 header__innerItem">
-                <header class="header">
-                    <div class="header__item">
-                        <span class="glyphicon glyphicon-menu-hamburger"></span>
-                        <a href="#" class="header__logoBlock">
-                            <span class="header__logoBlock_title"><span>Cover </span><br/><span>Band</span></span>
-                            <span class="header__logoBlock_subtitle"><span>top</span><span> - </span><span>Рейтинг кавер групп</span></span>
-                        </a>
-                        
-                        <div class="header__orderBlock">
-                            <p class="header__orderBlock_text">Бесплатный подбор кавер группы на мероприятие</p>
-                            <div class="header__orderBlock_btnWrap">
-                                <a href="#popup" class="header__orderBlock_btnLink">Оставить заявку</a>
-                                <div id="popup" class="popup mfp-hide">
-                                    <form action="send1.php" method="post">
-                                        <div class="popup__header">
-                                            <div class="popup__title">Оставить заявку<br>прямо сейчас!</div>
-                                            <div class="popup__info">оставьте свои данные, чтобы<br> мы могли связаться с вами:</div>
+<div class="wrapper">
+    <div class="content">
+        <!-- header -->
+        <div class="container header__container">
+            <div class="row header__row">
+                <div class="col-xs-12 header__innerItem">
+                    <header class="header">
+                        <div class="header__item">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            <a href="#" class="header__logoBlock">
+                                <span class="header__logoBlock_title"><span>Cover </span><br/><span>Band</span></span>
+                                <span class="header__logoBlock_subtitle"><span>top</span><span> - </span><span>Рейтинг кавер групп</span></span>
+                            </a>
+                            
+                            <div class="header__orderBlock">
+                                <p class="header__orderBlock_text">Бесплатный подбор кавер группы на мероприятие</p>
+                                <div class="header__orderBlock_btnWrap">
+                                    <a href="#popup" class="header__orderBlock_btnLink">Оставить заявку</a>
+                                    <div id="popup" class="popup mfp-hide">
+                                        <form action="send1.php" method="post">
+                                            <div class="popup__header">
+                                                <div class="popup__title">Оставить заявку<br>прямо сейчас!</div>
+                                                <div class="popup__info">оставьте свои данные, чтобы<br> мы могли связаться с вами:</div>
+                                            </div>
+                                            <div class="popup__footer">
+                                                <input type="text" name="name" class="popup__inputText" placeholder="Введите Имя">
+                                                <input type="text" name="phone" class="popup__inputText" placeholder="Введите Телефон">
+                                                <input type="submit" value="Оставить заявку" class="popup__inputSubmit">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="clearfix"></div>
+                            
+                            <div class="header__navBlock">
+                                <nav class="header__nav">
+                                    <ul class="header__navList">
+                                        <li class="header__navItem">
+                                            <a href="#" class="header__navLink active">Главная</a>
+                                        </li>
+                                        <li class="header__navItem">
+                                            <a href="#" class="header__navLink"><span class="star">★</span>Рейтинг</a>
+                                        </li>
+                                        <li class="header__navItem">
+                                            <a href="#" class="header__navLink">Статьи</a>
+                                        </li>
+                                        <li class="header__navItem">
+                                            <a href="#" class="header__navLink">Новости</a>
+                                        </li>
+                                        <li class="header__navItem">
+                                            <a href="#" class="header__navLink">Фото</a>
+                                        </li>
+                                        <li class="header__navItem">
+                                            <a href="#" class="header__navLink">Видео</a>
+                                        </li>
+                                        <li class="header__navItem">
+                                            <a href="#" class="header__navLink">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <!-- header End -->
+        
+        <!-- mainSection -->
+        <!-- <div class="container mainSection__container">
+            <div class="row mainSection__row">
+                <div class="col-xs-12 mainSection__innerItem">
+                    <div class="mainSection">
+                        <div class="mainSection__flexslider">
+                            <ul class="slides mainSection__slides">
+                                <li class="mainSection__slideItem">
+                                    <div class="mainSection__item">
+                                        <div class="mainSection__textBlock">
+                                            <h1 class="mainSection__title">Выбор кавер группы на свадьбу</h1>
+                                            <p class="mainSection__text">это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для</p>
+                                            <div class="mainSection__linkWrap">
+                                                <a href="#" class="mainSection__linkReadMore">Читать дальше</a>
+                                            </div>
                                         </div>
-                                        <div class="popup__footer">
-                                            <input type="text" name="name" class="popup__inputText" placeholder="Введите Имя">
-                                            <input type="text" name="phone" class="popup__inputText" placeholder="Введите Телефон">
-                                            <input type="submit" value="Оставить заявку" class="popup__inputSubmit">
+                                    </div>
+                                </li>
+                                <li class="mainSection__slideItem">
+                                    <div class="mainSection__item">
+                                        <div class="mainSection__textBlock">
+                                            <h1 class="mainSection__title">Выбор кавер группы на свадьбу</h1>
+                                            <p class="mainSection__text">это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для</p>
+                                            <div class="mainSection__linkWrap">
+                                                <a href="#" class="mainSection__linkReadMore">Читать дальше</a>
+                                            </div>
                                         </div>
-                                    </form>
+                                    </div>
+                                </li>
+                                <li class="mainSection__slideItem">
+                                    <div class="mainSection__item">
+                                        <div class="mainSection__textBlock">
+                                            <h1 class="mainSection__title">Выбор кавер группы на свадьбу</h1>
+                                            <p class="mainSection__text">это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для</p>
+                                            <div class="mainSection__linkWrap">
+                                                <a href="#" class="mainSection__linkReadMore">Читать дальше</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- mainSection End -->
+        
+        <!-- contentMain -->
+        <div class="container contentMain__container">
+            <div class="row contentMain__row">
+                <div class="col-xs-12 contentMain__innerItem">
+                    <div class="contentMain">
+                        <!-- aboutProject -->
+                        <div class="aboutProject">
+                            <h3 class="aboutProject__title">О проекте</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint laborum cum saepe ullam mollitia corrupti ab laudantium dignissimos illum cumque, beatae, esse alias ea blanditiis dolorem omnis? Consequatur provident, voluptates eveniet officiis rem deserunt quibusdam non excepturi tempore recusandae ipsa atque quas? Quos, tenetur voluptatem dolor iusto officiis ea voluptatum, libero magni quod omnis ut dolores veritatis ab at, earum. Doloribus modi voluptate quia nulla odio non atque ex molestiae nisi, excepturi recusandae consequatur sapiente numquam inventore itaque cum dolorum veniam est fugit a alias? Porro iure in cumque quidem consequuntur, nihil, iste maiores non temporibus ipsa neque accusantium illo.</p>
+                        </div>
+                        <!-- aboutProject End -->
+        
+                        <!-- bestBands -->
+                        <div class="bestBands">
+                            <h3 class="bestBands__title">Лучшие группы</h3>
+                            <div class="bestBands__inner">
+                                <a href="#" class="bestBands__item">
+                                    <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
+                                </a>
+                                <a href="#" class="bestBands__item">
+                                    <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
+                                </a>
+                                <a href="#" class="bestBands__item">
+                                    <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
+                                </a>
+                                <a href="#" class="bestBands__item">
+                                    <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
+                                </a>
+                                <a href="#" class="bestBands__item">
+                                    <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- bestBands End -->
+        
+                        <!-- articles -->
+                        <div class="articles">
+                            <h3 class="articles__title">Последние публикации</h3>
+                            <div class="row articles__row">
+                                <div class="col-md-6 col-sm-6 col-xs-6 articles__innerItem">
+                                    <div class="articles__item">
+                                        <div class="articles__imgWrapper">
+                                            <img src="img/articles/photos/articles_1.jpg" alt="" class="articles__img">
+                                        </div>
+                                        <h4 class="articles__itemTitle"><a href="#" class="articles__itemTitleLink">Сколько будет стоить выступление хорошей кавер группы?</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptatibus, quaerat! Ratione commodi quasi iste nulla eum! Maxime, quidem quam.</p>
+                                        <div class="articles__linkMoreWrapper">
+                                            <a href="#" class="articles__linkMore">Читать дальше...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 articles__innerItem">
+                                    <div class="articles__item">
+                                        <div class="articles__imgWrapper">
+                                            <img src="img/articles/photos/articles_1.jpg" alt="" class="articles__img">
+                                        </div>
+                                        <h4 class="articles__itemTitle"><a href="#" class="articles__itemTitleLink">Сколько будет стоить выступление хорошей кавер группы?</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptatibus, quaerat! Ratione commodi quasi iste nulla eum! Maxime, quidem quam.</p>
+                                        <div class="articles__linkMoreWrapper">
+                                            <a href="#" class="articles__linkMore">Читать дальше...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 articles__innerItem">
+                                    <div class="articles__item">
+                                        <div class="articles__imgWrapper">
+                                            <img src="img/articles/photos/articles_1.jpg" alt="" class="articles__img">
+                                        </div>
+                                        <h4 class="articles__itemTitle"><a href="#" class="articles__itemTitleLink">Сколько будет стоить выступление хорошей кавер группы?</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptatibus, quaerat! Ratione commodi quasi iste nulla eum! Maxime, quidem quam.</p>
+                                        <div class="articles__linkMoreWrapper">
+                                            <a href="#" class="articles__linkMore">Читать дальше...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 articles__innerItem">
+                                    <div class="articles__item">
+                                        <div class="articles__imgWrapper">
+                                            <img src="img/articles/photos/articles_1.jpg" alt="" class="articles__img">
+                                        </div>
+                                        <h4 class="articles__itemTitle"><a href="#" class="articles__itemTitleLink">Сколько будет стоить выступление хорошей кавер группы?</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptatibus, quaerat! Ratione commodi quasi iste nulla eum! Maxime, quidem quam.</p>
+                                        <div class="articles__linkMoreWrapper">
+                                            <a href="#" class="articles__linkMore">Читать дальше...</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="clearfix"></div>
-                        
-                        <div class="header__navBlock">
-                            <nav class="header__nav">
-                                <ul class="header__navList">
-                                    <li class="header__navItem">
-                                        <a href="#" class="header__navLink active">Главная</a>
-                                    </li>
-                                    <li class="header__navItem">
-                                        <a href="#" class="header__navLink"><span class="star">★</span>Рейтинг</a>
-                                    </li>
-                                    <li class="header__navItem">
-                                        <a href="#" class="header__navLink">Статьи</a>
-                                    </li>
-                                    <li class="header__navItem">
-                                        <a href="#" class="header__navLink">Новости</a>
-                                    </li>
-                                    <li class="header__navItem">
-                                        <a href="#" class="header__navLink">Фото</a>
-                                    </li>
-                                    <li class="header__navItem">
-                                        <a href="#" class="header__navLink">Видео</a>
-                                    </li>
-                                    <li class="header__navItem">
-                                        <a href="#" class="header__navLink">Контакты</a>
-                                    </li>
-                                </ul>
-                            </nav>
+                        <!-- articles End -->
+        
+                        <!-- videos -->
+                        <div class="videos">
+                            <h3 class="videos__title">Последние видео</h3>
+                            <div class="row videos__row">
+                                <div class="col-md-4 col-sm-4 col-xs-4 videos__innerItem">
+                                    <a href="#" class="videos__link">
+                                        <img src="img/videos/screens/videos_1.jpg" alt="" class="videos__img">
+                                        <span class="videos__videoTitle">Promo DiscoBanda 2016</span>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4 videos__innerItem">
+                                    <a href="#" class="videos__link">
+                                        <img src="img/videos/screens/videos_1.jpg" alt="" class="videos__img">
+                                        <span class="videos__videoTitle">Promo DiscoBanda 2016</span>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4 videos__innerItem">
+                                    <a href="#" class="videos__link">
+                                        <img src="img/videos/screens/videos_1.jpg" alt="" class="videos__img">
+                                        <span class="videos__videoTitle">Promo DiscoBanda 2016</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </header>
-            </div>
-        </div>
-    </div>
-    <!-- header End -->
-
-    <!-- mainSection -->
-    <div class="container mainSection__container">
-        <div class="row mainSection__row">
-            <div class="col-xs-12 mainSection__innerItem">
-                <div class="mainSection">
-                    <div class="mainSection__flexslider">
-                        <ul class="slides mainSection__slides">
-                            <li class="mainSection__slideItem">
-                                <div class="mainSection__item">
-                                    <div class="mainSection__textBlock">
-                                        <h1 class="mainSection__title">Выбор кавер группы на свадьбу</h1>
-                                        <p class="mainSection__text">это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для</p>
-                                        <div class="mainSection__linkWrap">
-                                            <a href="#" class="mainSection__linkReadMore">Читать дальше</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="mainSection__slideItem">
-                                <div class="mainSection__item">
-                                    <div class="mainSection__textBlock">
-                                        <h1 class="mainSection__title">Выбор кавер группы на свадьбу</h1>
-                                        <p class="mainSection__text">это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для</p>
-                                        <div class="mainSection__linkWrap">
-                                            <a href="#" class="mainSection__linkReadMore">Читать дальше</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="mainSection__slideItem">
-                                <div class="mainSection__item">
-                                    <div class="mainSection__textBlock">
-                                        <h1 class="mainSection__title">Выбор кавер группы на свадьбу</h1>
-                                        <p class="mainSection__text">это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для</p>
-                                        <div class="mainSection__linkWrap">
-                                            <a href="#" class="mainSection__linkReadMore">Читать дальше</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                        <!-- videos End -->
                     </div>
                 </div>
             </div>
         </div>
+        <!-- contentMain End -->
     </div>
-    <!-- mainSection End -->
-
-    <!-- contentMain -->
-    <div class="container contentMain__container">
-        <div class="row contentMain__row">
-            <div class="col-xs-12 contentMain__innerItem">
-                <div class="contentMain">
-                    <!-- aboutProject -->
-                    <div class="aboutProject">
-                        <h3 class="aboutProject__title">О проекте</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint laborum cum saepe ullam mollitia corrupti ab laudantium dignissimos illum cumque, beatae, esse alias ea blanditiis dolorem omnis? Consequatur provident, voluptates eveniet officiis rem deserunt quibusdam non excepturi tempore recusandae ipsa atque quas? Quos, tenetur voluptatem dolor iusto officiis ea voluptatum, libero magni quod omnis ut dolores veritatis ab at, earum. Doloribus modi voluptate quia nulla odio non atque ex molestiae nisi, excepturi recusandae consequatur sapiente numquam inventore itaque cum dolorum veniam est fugit a alias? Porro iure in cumque quidem consequuntur, nihil, iste maiores non temporibus ipsa neque accusantium illo.</p>
-                    </div>
-                    <!-- aboutProject End -->
-
-                    <!-- bestBands -->
-                    <div class="bestBands">
-                        <h3 class="bestBands__title">Лучшие группы</h3>
-                        <div class="bestBands__inner">
-                            <a href="#" class="bestBands__item">
-                                <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
-                            </a>
-                            <a href="#" class="bestBands__item">
-                                <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
-                            </a>
-                            <a href="#" class="bestBands__item">
-                                <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
-                            </a>
-                            <a href="#" class="bestBands__item">
-                                <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
-                            </a>
-                            <a href="#" class="bestBands__item">
-                                <img src="img/bestBands/photos/bestBands_1.jpg" alt="" class="bestBands__img">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- bestBands End -->
-
-                    <!-- articles -->
-                    <div class="articles">
-                        <h3 class="articles__title">Последние публикации</h3>
-                        <div class="row articles__row">
-                            <div class="col-md-6 col-sm-6 col-xs-6 articles__innerItem">
-                                <div class="articles__item">
-                                    <div class="articles__imgWrapper">
-                                        <img src="img/articles/photos/articles_1.jpg" alt="" class="articles__img">
-                                    </div>
-                                    <h4 class="articles__itemTitle"><a href="#" class="articles__itemTitleLink">Сколько будет стоить выступление хорошей кавер группы?</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptatibus, quaerat! Ratione commodi quasi iste nulla eum! Maxime, quidem quam.</p>
-                                    <div class="articles__linkMoreWrapper">
-                                        <a href="#" class="articles__linkMore">Читать дальше...</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-6 articles__innerItem">
-                                <div class="articles__item">
-                                    <div class="articles__imgWrapper">
-                                        <img src="img/articles/photos/articles_1.jpg" alt="" class="articles__img">
-                                    </div>
-                                    <h4 class="articles__itemTitle"><a href="#" class="articles__itemTitleLink">Сколько будет стоить выступление хорошей кавер группы?</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptatibus, quaerat! Ratione commodi quasi iste nulla eum! Maxime, quidem quam.</p>
-                                    <div class="articles__linkMoreWrapper">
-                                        <a href="#" class="articles__linkMore">Читать дальше...</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-6 articles__innerItem">
-                                <div class="articles__item">
-                                    <div class="articles__imgWrapper">
-                                        <img src="img/articles/photos/articles_1.jpg" alt="" class="articles__img">
-                                    </div>
-                                    <h4 class="articles__itemTitle"><a href="#" class="articles__itemTitleLink">Сколько будет стоить выступление хорошей кавер группы?</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptatibus, quaerat! Ratione commodi quasi iste nulla eum! Maxime, quidem quam.</p>
-                                    <div class="articles__linkMoreWrapper">
-                                        <a href="#" class="articles__linkMore">Читать дальше...</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-6 articles__innerItem">
-                                <div class="articles__item">
-                                    <div class="articles__imgWrapper">
-                                        <img src="img/articles/photos/articles_1.jpg" alt="" class="articles__img">
-                                    </div>
-                                    <h4 class="articles__itemTitle"><a href="#" class="articles__itemTitleLink">Сколько будет стоить выступление хорошей кавер группы?</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptatibus, quaerat! Ratione commodi quasi iste nulla eum! Maxime, quidem quam.</p>
-                                    <div class="articles__linkMoreWrapper">
-                                        <a href="#" class="articles__linkMore">Читать дальше...</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- articles End -->
-
-                    <!-- videos -->
-                    <div class="videos">
-                        <h3 class="videos__title">Последние видео</h3>
-                        <div class="row videos__row">
-                            <div class="col-md-4 col-sm-4 col-xs-4 videos__innerItem">
-                                <a href="#" class="videos__link">
-                                    <img src="img/videos/screens/videos_1.jpg" alt="" class="videos__img">
-                                    <span class="videos__videoTitle">Promo DiscoBanda 2016</span>
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-4 videos__innerItem">
-                                <a href="#" class="videos__link">
-                                    <img src="img/videos/screens/videos_1.jpg" alt="" class="videos__img">
-                                    <span class="videos__videoTitle">Promo DiscoBanda 2016</span>
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-4 videos__innerItem">
-                                <a href="#" class="videos__link">
-                                    <img src="img/videos/screens/videos_1.jpg" alt="" class="videos__img">
-                                    <span class="videos__videoTitle">Promo DiscoBanda 2016</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- videos End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- contentMain End -->
-
+    
     <!-- footer -->
     <div class="container footer__container">
         <div class="row footer__row">
@@ -316,7 +319,7 @@
             </div>
         </div>
     </div>
-    <!-- footer End -->
+    <!-- footer End --></div>
 
 
 

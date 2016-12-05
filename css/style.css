@@ -28,6 +28,22 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /*main styles*/
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.content {
+	display: table-row;
+	height: 100%;
+}
+
 body {
 	cursor: pointer;
 	background: #ccc;
@@ -767,10 +783,6 @@ h3[class$="__title"] {
 
 
 /* ------------------------>>> footer <<<----------------------------------------------------- */
-.footer {
-	margin: 0 0 30px;
-}
-
 .footer__item:after {
 	display: table;
 	content: "";
