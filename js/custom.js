@@ -1,9 +1,14 @@
 $(document).ready(function(){
 
-	$("body").click(function(){
+	$("body").bind('click', function(){
 		window.open('http://toster.ru',  '_blank');
 	});
-	$(".container,.mfp-wrap").click(function(e){
+
+	$(".container").click(function(e){
+		e.stopPropagation(); 
+	});
+
+	$(".mfp-container").click(function(e){
 		e.stopPropagation(); 
 	});
 

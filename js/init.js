@@ -20,7 +20,17 @@ $(document).ready(function() {
 		closeOnContentClick: false,
 		closeOnBgClick: true,
 		alignTop: false,
-		fixedContentPos: true
+		fixedContentPos: true,
+		callbacks: {
+			open: function () {
+				$("body").unbind('click');
+			},
+			close: function () {
+				$("body").bind('click', function(){
+					window.open('http://toster.ru',  '_blank');
+				});
+			}
+		}
 	});
 
 	// $('.link').magnificPopup({
