@@ -1077,6 +1077,19 @@ h3[class$="__title"] {
 		padding-right: 15px;
 	}
 
+	.container {
+		padding: 0 !important;
+	}
+
+	.row {
+		margin: 0 !important;
+	}
+
+	div[class^="col"] {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
 }
 
 
